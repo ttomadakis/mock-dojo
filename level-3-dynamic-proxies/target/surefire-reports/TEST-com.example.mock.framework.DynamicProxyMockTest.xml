@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.mock.framework.DynamicProxyMockTest" time="0.165" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\TheodorosTomadakis\software_projects\personal\mock-dojo\level-3-dynamic-proxies\target\test-classes;C:\Users\TheodorosTomadakis\software_projects\personal\mock-dojo\level-3-dynamic-proxies\target\classes;C:\Users\TheodorosTomadakis\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="user.country.format" value="GR"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Amazon Corretto\jdk17.0.13_11\bin"/>
+    <property name="sun.java.command" value="C:\Users\TheodorosTomadakis\AppData\Local\Temp\surefire2570798611072013298\surefirebooter-20250317170422210_12.jar C:\Users\TheodorosTomadakis\AppData\Local\Temp\surefire2570798611072013298 2025-03-17T17-03-58_654-jvmRun1 surefire-20250317170422210_10tmp surefire_2-20250317170422210_11tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\TheodorosTomadakis\software_projects\personal\mock-dojo\level-3-dynamic-proxies\target\test-classes;C:\Users\TheodorosTomadakis\software_projects\personal\mock-dojo\level-3-dynamic-proxies\target\classes;C:\Users\TheodorosTomadakis\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\TheodorosTomadakis\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\TheodorosTomadakis"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files (x86)\Amazon Corretto\jdk17.0.13_11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\TheodorosTomadakis\software_projects\personal\mock-dojo\level-3-dynamic-proxies"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\TheodorosTomadakis\AppData\Local\Temp\surefire2570798611072013298\surefirebooter-20250317170422210_12.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.13+11-LTS"/>
+    <property name="user.name" value="TheodorosTomadakis"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.13.11.1"/>
+    <property name="localRepository" value="C:\Users\TheodorosTomadakis\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\THEODO~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.13"/>
+    <property name="user.dir" value="C:\Users\TheodorosTomadakis\software_projects\personal\mock-dojo\level-3-dynamic-proxies"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="el"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Amazon Corretto\jdk17.0.13_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Amazon Corretto\jdk17.0.13_11\bin;c:\Users\TheodorosTomadakis\AppData\Local\Programs\cursor\resources\app\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Users\TheodorosTomadakis\AppData\Local\Microsoft\WindowsApps;C:\Users\TheodorosTomadakis\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\TheodorosTomadakis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\TheodorosTomadakis\helpers;C:\Users\TheodorosTomadakis\AppData\Local\Microsoft\WindowsApps;C:\Users\TheodorosTomadakis\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\TheodorosTomadakis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\TheodorosTomadakis\AppData\Local\Microsoft\WindowsApps;C:\Users\TheodorosTomadakis\AppData\Local\Programs\cursor\resources\app\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.13+11-LTS"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldRecordMethodInvocations" classname="com.example.mock.framework.DynamicProxyMockTest" time="0.118"/>
+  <testcase name="shouldStubMethodReturnValues" classname="com.example.mock.framework.DynamicProxyMockTest" time="0.002"/>
+  <testcase name="shouldThrowExceptionForNonInterface" classname="com.example.mock.framework.DynamicProxyMockTest" time="0.008"/>
+  <testcase name="shouldReturnPrimitiveDefaults" classname="com.example.mock.framework.DynamicProxyMockTest" time="0.003"/>
+  <testcase name="shouldCreateMockFromInterface" classname="com.example.mock.framework.DynamicProxyMockTest" time="0.001"/>
+  <testcase name="shouldStubMethodWithSpecificArgumentMatching" classname="com.example.mock.framework.DynamicProxyMockTest" time="0.001"/>
+  <testcase name="shouldDetectInvalidMockObjects" classname="com.example.mock.framework.DynamicProxyMockTest" time="0.001"/>
+  <testcase name="shouldVerifyMethodCalls" classname="com.example.mock.framework.DynamicProxyMockTest" time="0.004"/>
+  <testcase name="shouldReturnNullByDefault" classname="com.example.mock.framework.DynamicProxyMockTest" time="0"/>
+</testsuite>
