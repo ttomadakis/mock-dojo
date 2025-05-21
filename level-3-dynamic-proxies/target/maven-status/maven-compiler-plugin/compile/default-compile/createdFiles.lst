@@ -1,6 +1,0 @@
-com\example\mock\framework\MockProxyFactory.class
-com\example\mock\repository\UserRepository.class
-com\example\mock\framework\MockInvocationHandler$MethodKey.class
-com\example\mock\framework\MockInvocationHandler.class
-com\example\mock\model\User.class
-com\example\mock\framework\MethodInvocation.class

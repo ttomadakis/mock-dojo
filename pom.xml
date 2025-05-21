@@ -5,44 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     
     <groupId>com.example</groupId>
-    <artifactId>mocking-framework</artifactId>
+    <artifactId>mocking-framework-main</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    
-    <modules>
-        <module>level-1-testing-real-objects</module>
-        <module>level-2-manual-test-doubles</module>
-        <module>level-3-dynamic-proxies</module>
-        <!-- Additional modules will be added in future levels -->
-    </modules>
     
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit.version>5.9.2</junit.version>
     </properties>
     
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.junit.jupiter</groupId>
-                <artifactId>junit-jupiter</artifactId>
-                <version>${junit.version}</version>
-                <scope>test</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-    
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.0.0</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
-</project> 
+    <!-- This is a placeholder POM for the main branch. -->
+    <!-- Code for different levels can be found on respective branches. -->
+</project>
